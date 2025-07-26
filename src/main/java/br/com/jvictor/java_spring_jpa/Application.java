@@ -1,4 +1,4 @@
-package br.com.jvictor.__java_spring_jpa;
+package br.com.jvictor.java_spring_jpa;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
