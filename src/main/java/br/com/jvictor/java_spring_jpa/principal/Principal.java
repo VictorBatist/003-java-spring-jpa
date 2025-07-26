@@ -22,5 +22,16 @@ public class Principal {
 
         var opcao = lerDados.nextInt();
         lerDados.nextLine();
+
+        switch (opcao){
+            case 1 :
+                break;
+            case 2 :
+                break;
+            case 0 :
+                System.out.println("Saindo...");
+            default:
+                System.out.println("Opção inválida!");
+        }
     }
 }
