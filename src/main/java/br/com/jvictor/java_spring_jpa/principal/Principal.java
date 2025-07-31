@@ -38,6 +38,7 @@ public class Principal {
                 buscarSerieWeb();
                 break;
             case 2 :
+                buscarEpisodioPorSerie();
                 break;
             case 0 :
                 System.out.println("Saindo...");
