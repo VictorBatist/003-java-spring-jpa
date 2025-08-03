@@ -16,7 +16,7 @@ public class Principal {
 
 
     private final String ENDERECO_URL = "https://www.omdbapi.com/?t=";
-    private final String API_KEY = "";
+    private final String API_KEY = "&apikey=6585022c";
 
     public void exibeMenu() {
         var menu = """
