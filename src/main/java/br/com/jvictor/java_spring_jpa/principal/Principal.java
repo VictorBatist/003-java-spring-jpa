@@ -23,6 +23,7 @@ public class Principal {
       var opcao = -1;
       while (opcao!=0) {
           var menu = """
+                  \n
                   |----------------------------|
                   | 1 - Buscar Séries          |
                   | 2 - Buscar Episódios       |
@@ -30,7 +31,7 @@ public class Principal {
                   |                            |
                   | 0 - Sair                   |
                   |----------------------------|
-                  Escolha uma opção:\n
+                  Escolha uma opção:
                   """;
 
           System.out.println(menu);
@@ -47,8 +48,10 @@ public class Principal {
                   break;
               case 3:
                   listarSeriesBuscadas();
+                  break;
               case 0:
                   System.out.println("Saindo...");
+                  break;
               default:
                   System.out.println("Opção inválida!");
           }
